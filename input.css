@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply px-4 py-2 bg-gray w-full rounded-lg text-white text-xs md:text-sm hover:bg-green
+   hover:text-offBlack duration-200;
+}
